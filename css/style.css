@@ -1,1 +1,202 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f0f0f;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
+header {
+    background: linear-gradient(90deg, #232323, #111);
+    padding: 20px;
+    box-shadow: 0 2px 10px #000;
+}
+
+footer {
+    background: linear-gradient(90deg, #232323, #111);
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 10px #000;
+}
+
+h1, h2, h3 {
+    color: wheat;
+}
+
+ul {
+    list-style-position: inside;
+    text-align: center;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+.photo1 {
+    border: 3px solid lightpink;
+    border-radius: 10px;
+    margin: 20px 0;
+    height: 300px;
+    width: 430px;
+    animation: Animmm 2s ease-in-out infinite;
+}
+
+.online-games {
+    width: 430px;
+    height: 300px;
+    border: 2px solid #444;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.top-game1 {
+    display: block;
+    width: 250px;
+    height: 190px;
+    border: 5px solid #444;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-left: 20px;
+    animation: floatAnim 3s ease-in-out infinite;
+}
+
+.top-game2 {
+    display: block;
+    width: 250px;
+    height: 190px;
+    border: 5px solid #444;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-left: 300px;
+    margin-top: -200px;
+    animation: floatAnim 3s ease-in-out infinite;
+}
+.top-game3 {
+    display: block;
+    width: 250px;
+    height: 190px;
+    border: 5px solid #444;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-left: 580px;
+    margin-top: -200px;
+    animation: floatAnim 3s ease-in-out infinite;
+}
+
+.top-game4 {
+    display: block;
+    width: 250px;
+    height: 190px;
+    border: 5px solid #444;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-left: 860px;
+    margin-top: -200px;
+    animation: floatAnim 3s ease-in-out infinite;
+}
+
+.top-game5 {
+    display: block;
+    width: 250px;
+    height: 190px;
+    border: 5px solid #444;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-left: 1140px;
+    margin-top: -200px;
+    animation: floatAnim 3s ease-in-out infinite;
+}
+
+@keyframes floatAnim {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+.ganres {
+    display: block;
+    width: 350px;
+    height: 250px;
+    border: 5px solid #444;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-left: 600px;
+}
+.popular-genres {
+    list-style-position: inside;
+    text-align: center;
+    border: 2px solid white;
+    margin: 10px;
+}
+
+.culture1 {
+    display: block;
+    width: 400px;
+    height: 250px;
+    border: 5px solid #444;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-left: 40px;
+    animation: Animation2 3s ease-in-out infinite;
+}
+
+.culture2 {
+    display: block;
+    width: 400px;
+    height: 250px;
+    border: 5px solid #444;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-left: 550px;
+    margin-top: -255px;
+    animation: Animation2 3s ease-in-out infinite;
+}
+
+.culture3 {
+    display: block;
+    width: 400px;
+    height: 250px;
+    border: 5px solid #444;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-left: 1050px;
+    margin-top: -255px;
+    animation: Animation2 3s ease-in-out infinite;
+}
+
+@keyframes Animation2 {
+  0%   { transform: translateX(0); }
+  50%  { transform: translateX(-15px); }
+  100% { transform: translateX(0); }
+}
+
+.graphic1 {
+    margin-right: 20px;
+    border: 3px solid lightblue;
+    border-radius: 10px;
+    height: 300px;
+    width: 430px;
+    animation: Animmm 2s ease-in-out infinite;
+}
+
+.graphic2 {
+    border: 3px solid lightgreen;
+    border-radius: 10px;
+    height: 300px;
+    width: 430px;
+    animation: Animmm 2s ease-in-out infinite;
+}
+
+@keyframes Animmm {
+  0%   { transform: scale(0.9); }
+  50%  { transform: scale(0.95); }
+  100% { transform: scale(0.9); }
+}
