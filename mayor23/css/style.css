@@ -1,4 +1,4 @@
-﻿body {
+body {
     font-family: Arial, sans-serif;
     background-color: #0f0f0f;
     color: #eee;
@@ -259,4 +259,39 @@ button {
 
     .indie-card h4 {
         color: #61dafb;
+    }
+
+@keyframes techGlow {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 5px #ff4081;
+    }
+
+    50% {
+        transform: scale(1);
+        box-shadow: 0 0 20px #61dafb, 0 0 10px #ff4081;
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 5px #ff4081;
+    }
+}
+
+.tech-glow {
+    animation: techGlow 3s infinite alternate ease-in-out;
+}
+
+.future-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+    .future-gallery img {
+        border: 3px solid #61dafb;
+        border-radius: 12px;
     }
